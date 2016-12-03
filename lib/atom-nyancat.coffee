@@ -25,7 +25,7 @@ module.exports = AtomNyancat =
 
   consumeStatusBar: (statusBar) ->
     @statusBar = statusBar
-    priority = 500
+    priority = -500
     @view.mount(@statusBar, priority)
 
   subActive: ->

@@ -37,7 +37,7 @@ class AtomNyancatView
     catHeadSize = 18
     catArseSize = 9
     catSize = catArseSize + catHeadSize
-    maxWidth = 200
+    maxWidth = 180
     trailSize = (maxWidth - catHeadSize) * progress + catArseSize
     @element.style.width = maxWidth + "px"
 
